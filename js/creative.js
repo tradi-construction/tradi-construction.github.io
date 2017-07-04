@@ -126,6 +126,7 @@
     });
     $('#autres_gallery').magnificPopup({
         items: [
+          {src: './img/portfolio/fullsize/balanceoire.jpg'},
           {src: './img/portfolio/fullsize/IMG_3591_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_5070_web.jpg'}
         ],

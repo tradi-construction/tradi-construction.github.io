@@ -215,6 +215,7 @@ header.masthead {
   margin: 20px auto; }
 
 .portfolio-box {
+  z-index: 99;
   position: relative;
   display: block;
   max-width: 650px;
@@ -257,6 +258,22 @@ header.masthead {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+
+.img-caption {
+  z-index: 100;
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center; }
+  .img-caption .project-category,
+  .img-caption .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  .img-caption .project-category {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase; }
 
 .call-to-action {
   padding: 50px 0; }

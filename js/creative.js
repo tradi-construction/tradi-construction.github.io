@@ -53,20 +53,20 @@
     }, 300);
 
     // Magnific popup calls
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1]
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-        }
-    });
+    // $('.popup-gallery').magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     tLoading: 'Loading image #%curr%...',
+    //     mainClass: 'mfp-img-mobile',
+    //     gallery: {
+    //         enabled: true,
+    //         navigateByImgClick: true,
+    //         preload: [0, 1]
+    //     },
+    //     image: {
+    //         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    //     }
+    // });
 
 
     $('.open-popup-link').magnificPopup({
@@ -74,5 +74,87 @@
       midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
 
+    $('#escaliers_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/escalier.jpg'},
+          {src: './img/portfolio/fullsize/IMG_3782.jpg'},
+          {src: './img/portfolio/fullsize/escalier_2.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0068_web.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0060_t_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4965_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4969_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4972_web.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0079_web.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
+
+    $('#charpente_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/charpente.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4314_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_3788_web.jpg'},
+          {src: './img/portfolio/fullsize/2002_web.jpg'},
+          {src: './img/portfolio/fullsize/2001_web.jpg'},
+          {src: './img/portfolio/fullsize/2000_web.jpg'},
+          {src: './img/portfolio/fullsize/2003_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_3962_web.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
+    $('#couverture_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/couverture.jpg'},
+          {src: './img/portfolio/fullsize/couverture_3.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4333_web.jpg'},
+          {src: './img/portfolio/fullsize/couverture_4.jpg'},
+          {src: './img/portfolio/fullsize/couverture_2.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4054_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4054_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_4210_web.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
+    $('#autres_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/IMG_3591_web.jpg'},
+          {src: './img/portfolio/fullsize/IMG_5070_web.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
+    $('#terrasses_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/terrasse.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0057_web.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0074_web.jpg'},
+          {src: './img/portfolio/fullsize/3000_web.jpg'},
+          {src: './img/portfolio/fullsize/3001_web.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
+    $('#menuiserie_gallery').magnificPopup({
+        items: [
+          {src: './img/portfolio/fullsize/roulotte.jpg'}
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    });
 
 })(jQuery); // End of use strict

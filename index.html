@@ -5,8 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Construction traditionnelle">
+    <meta name="keywords" content="Charpente,Couverture,Isolation,Bois,Charpentier,Menuisier,Ebeniste">
+    <meta name="author" content="Tradi-construction">
     <link rel="icon" href="img/tradi-construction.ico">
 
 
@@ -25,70 +26,120 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-
-    <!-- Temporary navbar container fix -->
-    <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-
-    </style>
-
 </head>
 
 <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">Tradi-construction</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Concept</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Prestations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Méthodes et matériaux</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <img src="img/logo.png" alt="Tradi-construction" height=40>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTradi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTradi">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#services"><b>Prestations</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio"><b>Réalisations</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"><b>Contact</b></a>
+            </li>
+        </ul>
+    </div>
+  </nav>
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Construction traditionnelle</h1>
+                <h1 id="homeHeading" style="color:#10962d">Construction traditionnelle</h1>
                 <hr>
-                <p>Charpentes & ossatures bois | Menuiserie | Escaliers </p>
-                <a class="btn btn-primary btn-xl" href="#about">En savoir plus</a>
+                <p style="font-weight:bold;color:#d84b17;font-size:1.3em;">Charpente | Couverture-Isolation | Escaliers</p>
             </div>
         </div>
     </header>
-
-    <section class="bg-primary" id="about">
+    <div id="material-popup" class="white-popup mfp-hide">
+        <h3>Matériaux</h3>
+        <ul>
+            <li>Tuiles</li>
+            <li>Tavillons</li>
+            <li>Ardoise</li>
+            <li>Ferblanterie</li>
+            <li>Laine de mouton</li>
+            <li>Ouatte de cellulose</li>
+            <li>Laine de bois</li>
+        </ul>
+    </div>
+    <div id="steps-popup" class="white-popup mfp-hide">
+        <h3>Escaliers</h3>
+        <ul>
+            <li>Classiques</li>
+            <li>Contemporains</li>
+            <li>Droits</li>
+            <li>Cintrés</li>
+            <li>Gardes corps originaux</li>
+        </ul>
+    </div>
+    <div id="others-popup" class="white-popup mfp-hide">
+        <h3>Objets en bois</h3>
+        <ul>
+            <li>Balançoires</li>
+            <li>Portes</li>
+            <li>Terrasses</li>
+        </ul>
+    </div>
+    <div id="roof-popup" class="white-popup mfp-hide">
+        <h3>Les bois</h3>
+        <ul>
+            <li>Issus des forêts de la région</li>
+            <li>Sciés par des entreprises locales</li>
+        </ul>
+    </div>
+    <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading text-white">Concept</h2>
-                    <hr class="light">
-                    <p class="text-faded">L'utilisation de matériaux naturels aussi contenant aussi peu de produits chimiques que possible rend l'habitat durable, sain et confortable</p>
-                    <a class="btn btn-default btn-xl sr-button" href="#portfolio">Découvrir!</a>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Prestations</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                  <a href="#roof-popup" class="open-popup-link">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+                        <h3>Charpente</h3>
+                        <p class="text-muted">Traditionnelle en bois massif et local</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                      <a href="#material-popup" class="open-popup-link">
+                          <i class="fa fa-4x fa-leaf text-primary sr-icons"></i>
+                          <h3>Couverture et isolation</h3>
+                          <p class="text-muted">Naturelle saine et durable</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                  <a href="#steps-popup" class="open-popup-link">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cube text-primary sr-icons"></i>
+                        <h3>Escaliers</h3>
+                        <p class="text-muted">Bois et métal</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                  <a href="#others-popup" class="open-popup-link">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-folder-open text-primary sr-icons"></i>
+                        <h3>Autres</h3>
+                        <p class="text-muted">Objets en bois massif sur mesure</p>
+                    </div>
+                  </a>
                 </div>
             </div>
         </div>
@@ -189,64 +240,11 @@
             </div>
         </div>
     </section>
-    <div id="material-popup" class="white-popup mfp-hide">
-        <h3>Les différents type d'isolation naturelle</h3>
-        <ul>
-            <li>La laine de mouton</li>
-            <li>La paille</li>
-            <li>La ouatte de cellulose</li>
-        </ul>
-
-    </div>
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Méthodes et matériaux</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                      <a href="#material-popup" class="open-popup-link">
-                        <i class="fa fa-4x fa-fire text-primary sr-icons"></i>
-                        <h3>L'isolation naturelle</h3>
-                        <p class="text-muted">Paille, Ouate de cellulose, Laine de mouton, Chanvre</p>
-                      </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
-                        <h3>Charpente à tenons et mortaise</h3>
-                        <p class="text-muted">En bois massif</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-home text-primary sr-icons"></i>
-                        <h3>La maison en paille</h3>
-                        <p class="text-muted">Sain et durable</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
-                        <h3>Les outils</h3>
-                        <p class="text-muted">Du fusain à la modélisation 3D</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading">Contactez nous!</h2>
+                    <h2 class="section-heading">Nous contacter</h2>
                     <hr class="primary">
                     <p>Nous nous réjouissons de discuter de votre projet</p>
                 </div>
@@ -256,7 +254,7 @@
                 </div>
                 <div class="col-lg-2 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:info@tradi-construction.ch">info@tradi-construction.ch</a></p>
+                    <p><a href="mailto:tradi.constructionvd@gmail.com">tradi.constructionvd@gmail.com</a></p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-map fa-3x sr-contact"></i>
@@ -269,6 +267,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->

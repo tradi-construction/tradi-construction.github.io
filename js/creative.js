@@ -59,13 +59,13 @@
 
     $('#escaliers_gallery').magnificPopup({
         items: [
+          {src: './img/portfolio/fullsize/escalier_bleny.jpg'},
           {src: './img/portfolio/fullsize/IMG_0544_DxO.jpg'},
           {src: './img/portfolio/fullsize/IMG_0528_DxO.jpg'},
           {src: './img/portfolio/fullsize/escalier.jpg'},
           {src: './img/portfolio/fullsize/IMG_3782.jpg'},
           {src: './img/portfolio/fullsize/escalier_2.jpg'},
           {src: './img/portfolio/fullsize/DSC_0068_web.jpg'},
-          {src: './img/portfolio/fullsize/DSC_0060_t_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_4965_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_4969_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_4972_web.jpg'},
@@ -85,9 +85,9 @@
           {src: './img/portfolio/fullsize/IMG_4314_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_3788_web.jpg'},
           {src: './img/portfolio/fullsize/2002_web.jpg'},
-          {src: './img/portfolio/fullsize/2001_web.jpg'},
           {src: './img/portfolio/fullsize/2000_web.jpg'},
           {src: './img/portfolio/fullsize/2003_web.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0027_DxO.jpg'},
           {src: './img/portfolio/fullsize/IMG_3962_web.jpg'}
         ],
         gallery: {
@@ -99,12 +99,15 @@
         items: [
           {src: './img/portfolio/fullsize/couverture.jpg'},
           {src: './img/portfolio/fullsize/couverture_3.jpg'},
-          {src: './img/portfolio/fullsize/IMG_4333_web.jpg'},
-          {src: './img/portfolio/fullsize/couverture_4.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0021_DxO.jpg'},
           {src: './img/portfolio/fullsize/couverture_2.jpg'},
           {src: './img/portfolio/fullsize/IMG_4054_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_4054_web.jpg'},
-          {src: './img/portfolio/fullsize/IMG_4210_web.jpg'}
+          {src: './img/portfolio/fullsize/IMG_4210_web.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0033_DxO.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0036_DxO.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0038_DxO.jpg'},
+          {src: './img/portfolio/fullsize/DSC_0039_DxO.jpg'}
         ],
         gallery: {
           enabled: true
@@ -126,7 +129,6 @@
         items: [
           {src: './img/portfolio/fullsize/terrasse.jpg'},
           {src: './img/portfolio/fullsize/DSC_0057_web.jpg'},
-          {src: './img/portfolio/fullsize/DSC_0074_web.jpg'},
           {src: './img/portfolio/fullsize/3000_web.jpg'},
           {src: './img/portfolio/fullsize/3001_web.jpg'}
         ],

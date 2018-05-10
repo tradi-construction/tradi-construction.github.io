@@ -52,23 +52,6 @@
         distance: '0px'
     }, 300);
 
-    // Magnific popup calls
-    // $('.popup-gallery').magnificPopup({
-    //     delegate: 'a',
-    //     type: 'image',
-    //     tLoading: 'Loading image #%curr%...',
-    //     mainClass: 'mfp-img-mobile',
-    //     gallery: {
-    //         enabled: true,
-    //         navigateByImgClick: true,
-    //         preload: [0, 1]
-    //     },
-    //     image: {
-    //         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    //     }
-    // });
-
-
     $('.open-popup-link').magnificPopup({
       type:'inline',
       midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
@@ -76,6 +59,8 @@
 
     $('#escaliers_gallery').magnificPopup({
         items: [
+          {src: './img/portfolio/fullsize/IMG_0544_DxO.jpg'},
+          {src: './img/portfolio/fullsize/IMG_0528_DxO.jpg'},
           {src: './img/portfolio/fullsize/escalier.jpg'},
           {src: './img/portfolio/fullsize/IMG_3782.jpg'},
           {src: './img/portfolio/fullsize/escalier_2.jpg'},
@@ -95,6 +80,8 @@
     $('#charpente_gallery').magnificPopup({
         items: [
           {src: './img/portfolio/fullsize/charpente.jpg'},
+          {src: './img/portfolio/fullsize/IMG_0338_DxO.jpg'},
+          {src: './img/portfolio/fullsize/IMG_0328_DxO.jpg'},
           {src: './img/portfolio/fullsize/IMG_4314_web.jpg'},
           {src: './img/portfolio/fullsize/IMG_3788_web.jpg'},
           {src: './img/portfolio/fullsize/2002_web.jpg'},
@@ -127,7 +114,7 @@
     $('#autres_gallery').magnificPopup({
         items: [
           {src: './img/portfolio/fullsize/balanceoire.jpg'},
-          {src: './img/portfolio/fullsize/IMG_3591_web.jpg'},
+          {src: './img/portfolio/fullsize/201 023_DxO.jpg'},
           {src: './img/portfolio/fullsize/IMG_5070_web.jpg'}
         ],
         gallery: {
@@ -150,6 +137,8 @@
     });
     $('#menuiserie_gallery').magnificPopup({
         items: [
+          {src: './img/portfolio/fullsize/IMG_0554_DxO.jpg'},
+          {src: './img/portfolio/fullsize/IMG_0556_DxO.jpg'},
           {src: './img/portfolio/fullsize/roulotte.jpg'}
         ],
         gallery: {
